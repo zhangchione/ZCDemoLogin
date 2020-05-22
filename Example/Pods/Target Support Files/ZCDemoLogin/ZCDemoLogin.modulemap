@@ -1,0 +1,6 @@
+framework module ZCDemoLogin {
+  umbrella header "ZCDemoLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}

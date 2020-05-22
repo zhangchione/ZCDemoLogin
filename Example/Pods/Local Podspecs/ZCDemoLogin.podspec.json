@@ -1,0 +1,41 @@
+{
+  "name": "ZCDemoLogin",
+  "version": "0.1.0",
+  "summary": "ZCDemoLogin.",
+  "description": "Login1",
+  "homepage": "https://github.com/zhangchione/ZCDemoLogin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangchione": "zhangchi06@kuaishou.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangchione/ZCDemoLogin.git",
+    "tag": "0.1.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "platforms": {
+    "ios": "8.0"
+  },
+  "dependencies": {
+    "ZCDemoTools": [
+      "~> 0.1.0"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "ZCDemoLogin/Base/**/*.{h,m}",
+      "resource_bundles": {
+        "ZCDemoLogin": [
+          "ZCDemoLogin/Base/*.xcassets"
+        ]
+      }
+    }
+  ]
+}

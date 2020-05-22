@@ -1,0 +1,6 @@
+framework module Pods_ZCDemoLogin_Tests {
+  umbrella header "Pods-ZCDemoLogin_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

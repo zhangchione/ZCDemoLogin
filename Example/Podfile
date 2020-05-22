@@ -1,0 +1,17 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+source 'https://github.com/CocoaPods/Specs.git'  # 官方库
+source 'https://github.com/zhangchione/ZCSpecs.git' # 私有库
+
+target 'ZCDemoLogin_Example' do
+  pod 'ZCDemoLogin', :path => '../'
+  pod 'ZCDemoTools'
+  
+  target 'ZCDemoLogin_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

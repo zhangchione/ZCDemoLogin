@@ -1,0 +1,29 @@
+PODS:
+  - ZCDemoLogin (0.1.0):
+    - ZCDemoLogin/Base (= 0.1.0)
+    - ZCDemoTools (~> 0.1.0)
+  - ZCDemoLogin/Base (0.1.0):
+    - ZCDemoTools (~> 0.1.0)
+  - ZCDemoTools (0.1.0):
+    - ZCDemoTools/Base (= 0.1.0)
+  - ZCDemoTools/Base (0.1.0)
+
+DEPENDENCIES:
+  - ZCDemoLogin (from `../`)
+  - ZCDemoTools
+
+SPEC REPOS:
+  https://github.com/zhangchione/ZCSpecs.git:
+    - ZCDemoTools
+
+EXTERNAL SOURCES:
+  ZCDemoLogin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZCDemoLogin: b54e8dea623262deed44d0dadead71839fdc4322
+  ZCDemoTools: 34f4872fa1ecaa6a423bcfe7ca77ac8ccdff37df
+
+PODFILE CHECKSUM: 0796e971c19ecc302b7be7b86cdfe7d2cc25a8a0
+
+COCOAPODS: 1.8.4

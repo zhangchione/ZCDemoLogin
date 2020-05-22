@@ -1,0 +1,1268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09DDC9B4784A213DE22C138990155839 /* Pods-ZCDemoLogin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E37AB7D95821FF6DBD04273B591A875 /* Pods-ZCDemoLogin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		168365D08725B77679CDC00991B96458 /* ZCDemoTools.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 40A91ACCC29499C24BDEA23186F71DB5 /* ZCDemoTools.bundle */; };
+		1EF5F7938A8D375ED24639090611BD91 /* CustomButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C84ACA00AD2FCD50BBA495ACCDFA92 /* CustomButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		324D811FBC2B80B05079499D4AD06A0C /* ZCDemoToolsAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A18292B79440275BFB5953FEECF0A404 /* ZCDemoToolsAsset.xcassets */; };
+		473E5DB449B965F37AA2E4BA9949AAE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B500215190696986F96909A5147784FD /* Foundation.framework */; };
+		52E94C5FE70CF735CB27259E5174C750 /* DYDemoTools.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4E64F257E63E386559748AF3E02134 /* DYDemoTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52F481DAFCBF2091C5B012A476D8EB8F /* ZCDemoToolsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 41339F2100C7F47CF37F4A5B684F57A5 /* ZCDemoToolsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56ACE38F81AA25F783DD4DCF879EF435 /* Pods-ZCDemoLogin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4801F2F5AB18C3076B1DE5488ADA4B /* Pods-ZCDemoLogin_Tests-dummy.m */; };
+		5C66E230B5A41674F8228EB7AF601176 /* Pods-ZCDemoLogin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 057C56BCB98A720359BE317CE4E172A3 /* Pods-ZCDemoLogin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61A318FDA1AD6D192D8080C442FD8CEA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C082330EA213C9BD0AC28CC567BC4D /* MapKit.framework */; };
+		6280890BCD27ABBEE7E383ADADE44535 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575DF5CEA1E213173C1FDEB3B334E01F /* UIKit.framework */; };
+		68A74C4E42F5F38E202A43F5EE1610F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B500215190696986F96909A5147784FD /* Foundation.framework */; };
+		6EBB1960CFB1BF7A8A1EA1AEC5FDAF4A /* ZCDemoLogin.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F4684784C0E42EE2B7F3648900CC1E4 /* ZCDemoLogin.bundle */; };
+		72932B704E74D7F13EF51356C3E32A62 /* Pods-ZCDemoLogin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7838A802B2E20E55AEFFD422FDAD795 /* Pods-ZCDemoLogin_Example-dummy.m */; };
+		7575A3199F6D8C471CBAD2F17B51EED6 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4B1771E3177C857931EDC267562FC7 /* CustomButton.m */; };
+		7FFC1E87A272176561370F993B002046 /* ZCDemoLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E42A1A234B941A6F7B6BA71F29B30DC /* ZCDemoLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88FF52BA01251F5F28F1919B81756523 /* CustomButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F0839A5DF8D224EE43FE1AB7F6F97DFC /* CustomButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96FC34FC6D7A65F8D18BFBD589DD543C /* ZCDemoToolsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 199D5F8B0A961B751EC42F3A227419C4 /* ZCDemoToolsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99A823F7D563D671925AA02DCF468B6C /* ZCDemoTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0857BF6944E6AC08FBE800B99FFFDB /* ZCDemoTools.framework */; };
+		B4F80AA4658541BE25AE66306949C429 /* ZCDemoTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3614C023D9642742855F3FE556D9FC21 /* ZCDemoTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B637A909B9136DF832EEE9C64C7A3C8E /* ZCDemoTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB63E83CCD02C04D052B36BF32C8170 /* ZCDemoTools-dummy.m */; };
+		B6AEF0D5E8A3109F8E9C6BE5BB97E446 /* DYDemoTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 590DBF41786421460D366BA8B2794A19 /* DYDemoTools.m */; };
+		B8F6B410AD8E855BAD5AB9EBCB99C9DC /* ZCDemoToolsAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6955F58950490EFF59E3F9331E5B7D /* ZCDemoToolsAsset.xcassets */; };
+		C6FDB7B955234690FBA13FE7326AE297 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D1447E5E56723E8A090F7F352E43FA /* CustomButton.m */; };
+		C76956EBBB6051D230A919BA3144B334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B500215190696986F96909A5147784FD /* Foundation.framework */; };
+		CE2EDFF3F2A9ECAFA63C99E7BAF48A56 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C082330EA213C9BD0AC28CC567BC4D /* MapKit.framework */; };
+		DA368E73F9D79EF81CE158B24ADC5482 /* ZCDemoLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C582F21AB12B128728333D6528EEC /* ZCDemoLogin-dummy.m */; };
+		DBCBC9E6A2C7C7D4CF505223E96B36EB /* DYDemoTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 82B7C6A5A3E495658EFA2A880D284B1C /* DYDemoTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF542103BD1728F881BB93DA2E79A2FC /* DYDemoTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEE639A9C6542892728016EE749C9F0 /* DYDemoTools.m */; };
+		F3D04AFD3EA254B13058188ECDB373F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575DF5CEA1E213173C1FDEB3B334E01F /* UIKit.framework */; };
+		F5F274610CF5958DE8FB0387D6B3BEC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B500215190696986F96909A5147784FD /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02E13D33D3DF9F7504C66C56638DFACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29F38C98B1090126D39F0B503AAF8AD8;
+			remoteInfo = ZCDemoTools;
+		};
+		250D02E22ACE69DC9C5FCF9F0AA9AAEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9CD9A0FB00CF5EA2889A052C7DABD80;
+			remoteInfo = "Pods-ZCDemoLogin_Example";
+		};
+		6468E9B8E5ABC487D4B8DBE9347C9F07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23B3085777B8586E33C3DDAE496A7622;
+			remoteInfo = ZCDemoLogin;
+		};
+		69D8EE7AAF52D2B10FC102EF529E848E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29F38C98B1090126D39F0B503AAF8AD8;
+			remoteInfo = ZCDemoTools;
+		};
+		9C4CD94FFFB583332D07B44B3473E551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 295875DE22DDA1DF8B2644806DE4F474;
+			remoteInfo = "ZCDemoLogin-ZCDemoLogin";
+		};
+		C9E871E9404B38481420FFA3D66F569F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD73C8A9C438B4E13B655EA5E6E1FA51;
+			remoteInfo = "ZCDemoTools-ZCDemoTools";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		057C56BCB98A720359BE317CE4E172A3 /* Pods-ZCDemoLogin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZCDemoLogin_Example-umbrella.h"; sourceTree = "<group>"; };
+		0AEE639A9C6542892728016EE749C9F0 /* DYDemoTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DYDemoTools.m; sourceTree = "<group>"; };
+		0D02FE68F2ED8064AC860089B60380BB /* ZCDemoTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCDemoTools.xcconfig; sourceTree = "<group>"; };
+		18E58465F799D2E237CDFBBBD895D081 /* ZCDemoLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZCDemoLogin.modulemap; sourceTree = "<group>"; };
+		199D5F8B0A961B751EC42F3A227419C4 /* ZCDemoToolsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCDemoToolsHeader.h; path = ZCDemoTools/Base/ZCDemoToolsHeader.h; sourceTree = "<group>"; };
+		1E4801F2F5AB18C3076B1DE5488ADA4B /* Pods-ZCDemoLogin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZCDemoLogin_Tests-dummy.m"; sourceTree = "<group>"; };
+		2861D779BCD6E48E7457ED26BF641DFB /* Pods-ZCDemoLogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCDemoLogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2F77CCE9F1F387A1F21B80ED75EC35A8 /* ZCDemoTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZCDemoTools-Info.plist"; sourceTree = "<group>"; };
+		30C84ACA00AD2FCD50BBA495ACCDFA92 /* CustomButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomButton.h; path = ZCDemoTools/Base/CustomButton.h; sourceTree = "<group>"; };
+		3614C023D9642742855F3FE556D9FC21 /* ZCDemoTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCDemoTools-umbrella.h"; sourceTree = "<group>"; };
+		36C082330EA213C9BD0AC28CC567BC4D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		3D4F8BEF974DF66ED591D99F64A61641 /* Pods-ZCDemoLogin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZCDemoLogin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		409123506BBA5E952E8410ACC8481415 /* Pods_ZCDemoLogin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZCDemoLogin_Example.framework; path = "Pods-ZCDemoLogin_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A91ACCC29499C24BDEA23186F71DB5 /* ZCDemoTools.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZCDemoTools.bundle; path = "ZCDemoTools-ZCDemoTools.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41339F2100C7F47CF37F4A5B684F57A5 /* ZCDemoToolsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCDemoToolsHeader.h; path = ZCDemoLogin/Base/ZCDemoToolsHeader.h; sourceTree = "<group>"; };
+		459E62DFB8050117763E20F0605DEAE3 /* Pods-ZCDemoLogin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZCDemoLogin_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4E37AB7D95821FF6DBD04273B591A875 /* Pods-ZCDemoLogin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZCDemoLogin_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4E42A1A234B941A6F7B6BA71F29B30DC /* ZCDemoLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCDemoLogin-umbrella.h"; sourceTree = "<group>"; };
+		5581C0EB5390BB19A26685E0D6365554 /* ZCDemoTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCDemoTools-prefix.pch"; sourceTree = "<group>"; };
+		575DF5CEA1E213173C1FDEB3B334E01F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		590DBF41786421460D366BA8B2794A19 /* DYDemoTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DYDemoTools.m; path = ZCDemoTools/Base/Tools/DYDemoTools.m; sourceTree = "<group>"; };
+		59AE168996751EFB62E06602CF2E1D8A /* Pods-ZCDemoLogin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZCDemoLogin_Tests.modulemap"; sourceTree = "<group>"; };
+		639FE88E558E916D521BDFAE15A76CA9 /* ZCDemoTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZCDemoTools.framework; path = ZCDemoTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68CFA632DD4E6F940FD4AAEB5D135DB2 /* ZCDemoLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCDemoLogin-prefix.pch"; sourceTree = "<group>"; };
+		6A9C3ADDECAD554AB145B5DFE4F42CC7 /* Pods-ZCDemoLogin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCDemoLogin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F9A27AE22048BE6068C3078B908F071 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		70D1447E5E56723E8A090F7F352E43FA /* CustomButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CustomButton.m; path = ZCDemoTools/Base/CustomButton.m; sourceTree = "<group>"; };
+		7A4B1771E3177C857931EDC267562FC7 /* CustomButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CustomButton.m; path = ZCDemoLogin/Base/CustomButton.m; sourceTree = "<group>"; };
+		7C67D0F22362169573131B949CF036A7 /* Pods-ZCDemoLogin_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZCDemoLogin_Tests-Info.plist"; sourceTree = "<group>"; };
+		7E04477B66F8C5484C5C4C124DAFE086 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		82B7C6A5A3E495658EFA2A880D284B1C /* DYDemoTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DYDemoTools.h; path = ZCDemoTools/Base/Tools/DYDemoTools.h; sourceTree = "<group>"; };
+		8D7C582F21AB12B128728333D6528EEC /* ZCDemoLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCDemoLogin-dummy.m"; sourceTree = "<group>"; };
+		8F4684784C0E42EE2B7F3648900CC1E4 /* ZCDemoLogin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZCDemoLogin.bundle; path = "ZCDemoLogin-ZCDemoLogin.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FD691520DC5EB3F4BFB48991F64308D /* Pods-ZCDemoLogin_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZCDemoLogin_Example-Info.plist"; sourceTree = "<group>"; };
+		99D4F2CB56C214AC9E57D691D2E01B34 /* ZCDemoLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZCDemoLogin-Info.plist"; sourceTree = "<group>"; };
+		9A163B406CA306A240BEE85EBD67EE57 /* ZCDemoLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZCDemoLogin.framework; path = ZCDemoLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A18292B79440275BFB5953FEECF0A404 /* ZCDemoToolsAsset.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = ZCDemoToolsAsset.xcassets; path = ZCDemoLogin/Base/ZCDemoToolsAsset.xcassets; sourceTree = "<group>"; };
+		A951E3350A84BF90B4334906EE876798 /* Pods-ZCDemoLogin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCDemoLogin_Example.release.xcconfig"; sourceTree = "<group>"; };
+		ACF0C469B476D72C68730D233CF8C316 /* ZCDemoTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZCDemoTools.modulemap; sourceTree = "<group>"; };
+		B287D47DA1AC85E060CE889C5567B560 /* Pods-ZCDemoLogin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZCDemoLogin_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B500215190696986F96909A5147784FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B99912F7382D02ECC9BD68269A3A5EBD /* ResourceBundle-ZCDemoLogin-ZCDemoLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZCDemoLogin-ZCDemoLogin-Info.plist"; sourceTree = "<group>"; };
+		C537981D2745089656CA481F57F7A35D /* ResourceBundle-ZCDemoTools-ZCDemoTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZCDemoTools-ZCDemoTools-Info.plist"; sourceTree = "<group>"; };
+		CBB63E83CCD02C04D052B36BF32C8170 /* ZCDemoTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCDemoTools-dummy.m"; sourceTree = "<group>"; };
+		CC4E64F257E63E386559748AF3E02134 /* DYDemoTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DYDemoTools.h; sourceTree = "<group>"; };
+		D14A000084D85F537B62F4CED806A19C /* Pods-ZCDemoLogin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZCDemoLogin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D76ABC650D53EC501B30A5997F8F5BCF /* Pods-ZCDemoLogin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZCDemoLogin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA0857BF6944E6AC08FBE800B99FFFDB /* ZCDemoTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZCDemoTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB4A37BFCC0CFEB98118F9B8014B3B9 /* Pods_ZCDemoLogin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZCDemoLogin_Tests.framework; path = "Pods-ZCDemoLogin_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7838A802B2E20E55AEFFD422FDAD795 /* Pods-ZCDemoLogin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZCDemoLogin_Example-dummy.m"; sourceTree = "<group>"; };
+		ED6955F58950490EFF59E3F9331E5B7D /* ZCDemoToolsAsset.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = ZCDemoToolsAsset.xcassets; path = ZCDemoTools/Base/ZCDemoToolsAsset.xcassets; sourceTree = "<group>"; };
+		ED7E1E209EAD7E4EFDF9FCB54A9B3F47 /* Pods-ZCDemoLogin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZCDemoLogin_Example.modulemap"; sourceTree = "<group>"; };
+		F0839A5DF8D224EE43FE1AB7F6F97DFC /* CustomButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomButton.h; path = ZCDemoLogin/Base/CustomButton.h; sourceTree = "<group>"; };
+		F50A315171076F72700F7E9896B7FBA5 /* ZCDemoLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZCDemoLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FB8227CEE1F6E666537C664A9727B607 /* Pods-ZCDemoLogin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZCDemoLogin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF39CB059AFDD712CA76AC786AB1BAE3 /* ZCDemoLogin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCDemoLogin.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A8FF4A270707E9B249C5A1F5583AA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE2A1B96849B382175129386684BE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473E5DB449B965F37AA2E4BA9949AAE1 /* Foundation.framework in Frameworks */,
+				CE2EDFF3F2A9ECAFA63C99E7BAF48A56 /* MapKit.framework in Frameworks */,
+				F3D04AFD3EA254B13058188ECDB373F0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B578E8AED6480889B20043AD0F0071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F06A1F687E2DB2BBEE5B5408DBC60EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F274610CF5958DE8FB0387D6B3BEC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDC4A2F120B7C1EAE773FFD25295DC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76956EBBB6051D230A919BA3144B334 /* Foundation.framework in Frameworks */,
+				61A318FDA1AD6D192D8080C442FD8CEA /* MapKit.framework in Frameworks */,
+				6280890BCD27ABBEE7E383ADADE44535 /* UIKit.framework in Frameworks */,
+				99A823F7D563D671925AA02DCF468B6C /* ZCDemoTools.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3661F0C450E3A54F3881C31E884555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A74C4E42F5F38E202A43F5EE1610F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A278291BF03527FFD14DD9D7C5511D5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CC4E64F257E63E386559748AF3E02134 /* DYDemoTools.h */,
+				0AEE639A9C6542892728016EE749C9F0 /* DYDemoTools.m */,
+			);
+			name = Tools;
+			path = ZCDemoLogin/Base/Tools;
+			sourceTree = "<group>";
+		};
+		241F5CB7FEE73E4EF2B5F1C52100423E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B500215190696986F96909A5147784FD /* Foundation.framework */,
+				36C082330EA213C9BD0AC28CC567BC4D /* MapKit.framework */,
+				575DF5CEA1E213173C1FDEB3B334E01F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2DDC8C8D14BFE1121ADD1EFB7E2A8B24 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B99912F7382D02ECC9BD68269A3A5EBD /* ResourceBundle-ZCDemoLogin-ZCDemoLogin-Info.plist */,
+				18E58465F799D2E237CDFBBBD895D081 /* ZCDemoLogin.modulemap */,
+				FF39CB059AFDD712CA76AC786AB1BAE3 /* ZCDemoLogin.xcconfig */,
+				8D7C582F21AB12B128728333D6528EEC /* ZCDemoLogin-dummy.m */,
+				99D4F2CB56C214AC9E57D691D2E01B34 /* ZCDemoLogin-Info.plist */,
+				68CFA632DD4E6F940FD4AAEB5D135DB2 /* ZCDemoLogin-prefix.pch */,
+				4E42A1A234B941A6F7B6BA71F29B30DC /* ZCDemoLogin-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZCDemoLogin";
+			sourceTree = "<group>";
+		};
+		3288E5B54FA7C9B6206CD7BA11E2B2EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A18292B79440275BFB5953FEECF0A404 /* ZCDemoToolsAsset.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4C877A538DE81D4568E26745375778D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				409123506BBA5E952E8410ACC8481415 /* Pods_ZCDemoLogin_Example.framework */,
+				DCB4A37BFCC0CFEB98118F9B8014B3B9 /* Pods_ZCDemoLogin_Tests.framework */,
+				8F4684784C0E42EE2B7F3648900CC1E4 /* ZCDemoLogin.bundle */,
+				9A163B406CA306A240BEE85EBD67EE57 /* ZCDemoLogin.framework */,
+				40A91ACCC29499C24BDEA23186F71DB5 /* ZCDemoTools.bundle */,
+				639FE88E558E916D521BDFAE15A76CA9 /* ZCDemoTools.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5012AD835A717F8F455168300FCF1774 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74936DB7A6071594E8A8EE11466B2D7E /* ZCDemoTools */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		512EB9DF07269A6383F5CFBD54AE2E43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED6955F58950490EFF59E3F9331E5B7D /* ZCDemoToolsAsset.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		74936DB7A6071594E8A8EE11466B2D7E /* ZCDemoTools */ = {
+			isa = PBXGroup;
+			children = (
+				906FF693DED10DBAE2512D9D20091E3D /* Base */,
+				EE4020E843E84AA24B413EA4A5DE38E2 /* Support Files */,
+			);
+			name = ZCDemoTools;
+			path = ZCDemoTools;
+			sourceTree = "<group>";
+		};
+		906FF693DED10DBAE2512D9D20091E3D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				30C84ACA00AD2FCD50BBA495ACCDFA92 /* CustomButton.h */,
+				70D1447E5E56723E8A090F7F352E43FA /* CustomButton.m */,
+				82B7C6A5A3E495658EFA2A880D284B1C /* DYDemoTools.h */,
+				590DBF41786421460D366BA8B2794A19 /* DYDemoTools.m */,
+				199D5F8B0A961B751EC42F3A227419C4 /* ZCDemoToolsHeader.h */,
+				512EB9DF07269A6383F5CFBD54AE2E43 /* Resources */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		A081310FFD947670DCF58CC12A090A4F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7E04477B66F8C5484C5C4C124DAFE086 /* LICENSE */,
+				6F9A27AE22048BE6068C3078B908F071 /* README.md */,
+				F50A315171076F72700F7E9896B7FBA5 /* ZCDemoLogin.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A15DAFAF50A16B35DED543F3F02C64F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA0857BF6944E6AC08FBE800B99FFFDB /* ZCDemoTools.framework */,
+				241F5CB7FEE73E4EF2B5F1C52100423E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5628FCC6251EE93DE24196945A80930 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F0839A5DF8D224EE43FE1AB7F6F97DFC /* CustomButton.h */,
+				7A4B1771E3177C857931EDC267562FC7 /* CustomButton.m */,
+				41339F2100C7F47CF37F4A5B684F57A5 /* ZCDemoToolsHeader.h */,
+				3288E5B54FA7C9B6206CD7BA11E2B2EA /* Resources */,
+				0A278291BF03527FFD14DD9D7C5511D5 /* Tools */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		BF195F414C342D68AC5EB790C6314274 /* Pods-ZCDemoLogin_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				59AE168996751EFB62E06602CF2E1D8A /* Pods-ZCDemoLogin_Tests.modulemap */,
+				D14A000084D85F537B62F4CED806A19C /* Pods-ZCDemoLogin_Tests-acknowledgements.markdown */,
+				FB8227CEE1F6E666537C664A9727B607 /* Pods-ZCDemoLogin_Tests-acknowledgements.plist */,
+				1E4801F2F5AB18C3076B1DE5488ADA4B /* Pods-ZCDemoLogin_Tests-dummy.m */,
+				7C67D0F22362169573131B949CF036A7 /* Pods-ZCDemoLogin_Tests-Info.plist */,
+				4E37AB7D95821FF6DBD04273B591A875 /* Pods-ZCDemoLogin_Tests-umbrella.h */,
+				6A9C3ADDECAD554AB145B5DFE4F42CC7 /* Pods-ZCDemoLogin_Tests.debug.xcconfig */,
+				2861D779BCD6E48E7457ED26BF641DFB /* Pods-ZCDemoLogin_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZCDemoLogin_Tests";
+			path = "Target Support Files/Pods-ZCDemoLogin_Tests";
+			sourceTree = "<group>";
+		};
+		C6659FFC669C7988B6F39D20A31C07C0 /* Pods-ZCDemoLogin_Example */ = {
+			isa = PBXGroup;
+			children = (
+				ED7E1E209EAD7E4EFDF9FCB54A9B3F47 /* Pods-ZCDemoLogin_Example.modulemap */,
+				D76ABC650D53EC501B30A5997F8F5BCF /* Pods-ZCDemoLogin_Example-acknowledgements.markdown */,
+				3D4F8BEF974DF66ED591D99F64A61641 /* Pods-ZCDemoLogin_Example-acknowledgements.plist */,
+				E7838A802B2E20E55AEFFD422FDAD795 /* Pods-ZCDemoLogin_Example-dummy.m */,
+				459E62DFB8050117763E20F0605DEAE3 /* Pods-ZCDemoLogin_Example-frameworks.sh */,
+				8FD691520DC5EB3F4BFB48991F64308D /* Pods-ZCDemoLogin_Example-Info.plist */,
+				057C56BCB98A720359BE317CE4E172A3 /* Pods-ZCDemoLogin_Example-umbrella.h */,
+				B287D47DA1AC85E060CE889C5567B560 /* Pods-ZCDemoLogin_Example.debug.xcconfig */,
+				A951E3350A84BF90B4334906EE876798 /* Pods-ZCDemoLogin_Example.release.xcconfig */,
+			);
+			name = "Pods-ZCDemoLogin_Example";
+			path = "Target Support Files/Pods-ZCDemoLogin_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				EB9740A69B945A5EF9D09F675E8EC5FB /* Development Pods */,
+				A15DAFAF50A16B35DED543F3F02C64F6 /* Frameworks */,
+				5012AD835A717F8F455168300FCF1774 /* Pods */,
+				4C877A538DE81D4568E26745375778D1 /* Products */,
+				F659EF0E55EFD0D48FC7105786378664 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D09BBA0E89F4ADC7BB7CE6DC786F5A2C /* ZCDemoLogin */ = {
+			isa = PBXGroup;
+			children = (
+				A5628FCC6251EE93DE24196945A80930 /* Base */,
+				A081310FFD947670DCF58CC12A090A4F /* Pod */,
+				2DDC8C8D14BFE1121ADD1EFB7E2A8B24 /* Support Files */,
+			);
+			name = ZCDemoLogin;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EB9740A69B945A5EF9D09F675E8EC5FB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D09BBA0E89F4ADC7BB7CE6DC786F5A2C /* ZCDemoLogin */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EE4020E843E84AA24B413EA4A5DE38E2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C537981D2745089656CA481F57F7A35D /* ResourceBundle-ZCDemoTools-ZCDemoTools-Info.plist */,
+				ACF0C469B476D72C68730D233CF8C316 /* ZCDemoTools.modulemap */,
+				0D02FE68F2ED8064AC860089B60380BB /* ZCDemoTools.xcconfig */,
+				CBB63E83CCD02C04D052B36BF32C8170 /* ZCDemoTools-dummy.m */,
+				2F77CCE9F1F387A1F21B80ED75EC35A8 /* ZCDemoTools-Info.plist */,
+				5581C0EB5390BB19A26685E0D6365554 /* ZCDemoTools-prefix.pch */,
+				3614C023D9642742855F3FE556D9FC21 /* ZCDemoTools-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZCDemoTools";
+			sourceTree = "<group>";
+		};
+		F659EF0E55EFD0D48FC7105786378664 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6659FFC669C7988B6F39D20A31C07C0 /* Pods-ZCDemoLogin_Example */,
+				BF195F414C342D68AC5EB790C6314274 /* Pods-ZCDemoLogin_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4711A068A2631CF5B8CD652FCD8EBB4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DDC9B4784A213DE22C138990155839 /* Pods-ZCDemoLogin_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78115FF859DECDE7EBCACEF8E0096AC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C66E230B5A41674F8228EB7AF601176 /* Pods-ZCDemoLogin_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC1A4CE77241A52D6F386C5F54E765E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FF52BA01251F5F28F1919B81756523 /* CustomButton.h in Headers */,
+				52E94C5FE70CF735CB27259E5174C750 /* DYDemoTools.h in Headers */,
+				7FFC1E87A272176561370F993B002046 /* ZCDemoLogin-umbrella.h in Headers */,
+				52F481DAFCBF2091C5B012A476D8EB8F /* ZCDemoToolsHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C779E2CF5F36D4BFAA7085649CD9078A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF5F7938A8D375ED24639090611BD91 /* CustomButton.h in Headers */,
+				DBCBC9E6A2C7C7D4CF505223E96B36EB /* DYDemoTools.h in Headers */,
+				B4F80AA4658541BE25AE66306949C429 /* ZCDemoTools-umbrella.h in Headers */,
+				96FC34FC6D7A65F8D18BFBD589DD543C /* ZCDemoToolsHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		23B3085777B8586E33C3DDAE496A7622 /* ZCDemoLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB144CE649C35F7704791FEF102074BB /* Build configuration list for PBXNativeTarget "ZCDemoLogin" */;
+			buildPhases = (
+				7DC1A4CE77241A52D6F386C5F54E765E /* Headers */,
+				46E9D5EBB9BB0881CBDA2CC51DB4877B /* Sources */,
+				ABDC4A2F120B7C1EAE773FFD25295DC2 /* Frameworks */,
+				2B2136754845604BBB20C9AC5D8ED3E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890FEC9D9EF6B1C945D4E8F9C4B5412E /* PBXTargetDependency */,
+				4E4854D8A8F5C16F67D08D167F28B17B /* PBXTargetDependency */,
+			);
+			name = ZCDemoLogin;
+			productName = ZCDemoLogin;
+			productReference = 9A163B406CA306A240BEE85EBD67EE57 /* ZCDemoLogin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		295875DE22DDA1DF8B2644806DE4F474 /* ZCDemoLogin-ZCDemoLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4DDDAE3A3FFC537E5DB74A2A9E467F /* Build configuration list for PBXNativeTarget "ZCDemoLogin-ZCDemoLogin" */;
+			buildPhases = (
+				3B7E7DD313842E6427705477557D415B /* Sources */,
+				3A8FF4A270707E9B249C5A1F5583AA94 /* Frameworks */,
+				D1187835D9BF59C50379F7B6A4EFB3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZCDemoLogin-ZCDemoLogin";
+			productName = "ZCDemoLogin-ZCDemoLogin";
+			productReference = 8F4684784C0E42EE2B7F3648900CC1E4 /* ZCDemoLogin.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		29F38C98B1090126D39F0B503AAF8AD8 /* ZCDemoTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76DF27CCF16F9D90980D8BD315B33A88 /* Build configuration list for PBXNativeTarget "ZCDemoTools" */;
+			buildPhases = (
+				C779E2CF5F36D4BFAA7085649CD9078A /* Headers */,
+				FD3B25F700DF4C1B2543B14CD32834D1 /* Sources */,
+				3FE2A1B96849B382175129386684BE84 /* Frameworks */,
+				6737FCE8F29392706171FEF1240403C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE2E325163668C71F877522970B1C6A9 /* PBXTargetDependency */,
+			);
+			name = ZCDemoTools;
+			productName = ZCDemoTools;
+			productReference = 639FE88E558E916D521BDFAE15A76CA9 /* ZCDemoTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		692E0FE89F32AFE1C800E0DE3B20C30F /* Pods-ZCDemoLogin_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7B43DB0CFCAACDAE205AAB1E0C8C9E5 /* Build configuration list for PBXNativeTarget "Pods-ZCDemoLogin_Tests" */;
+			buildPhases = (
+				4711A068A2631CF5B8CD652FCD8EBB4C /* Headers */,
+				5D5FBCFE23604939F7E5F1848A2717F1 /* Sources */,
+				EC3661F0C450E3A54F3881C31E884555 /* Frameworks */,
+				CF07A1F934D974EA74C4A60F4F509E68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				493F1FD04996A481E9211DF2C75D0633 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZCDemoLogin_Tests";
+			productName = "Pods-ZCDemoLogin_Tests";
+			productReference = DCB4A37BFCC0CFEB98118F9B8014B3B9 /* Pods_ZCDemoLogin_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD73C8A9C438B4E13B655EA5E6E1FA51 /* ZCDemoTools-ZCDemoTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11BCD9B5D5B66C8DFDF10CB82A059545 /* Build configuration list for PBXNativeTarget "ZCDemoTools-ZCDemoTools" */;
+			buildPhases = (
+				4F992DA90909EF08E3063F3F58DA7C5E /* Sources */,
+				57B578E8AED6480889B20043AD0F0071 /* Frameworks */,
+				0EFDC6E0340995E42E68BB7C92216B2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZCDemoTools-ZCDemoTools";
+			productName = "ZCDemoTools-ZCDemoTools";
+			productReference = 40A91ACCC29499C24BDEA23186F71DB5 /* ZCDemoTools.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D9CD9A0FB00CF5EA2889A052C7DABD80 /* Pods-ZCDemoLogin_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A3BA0A3646C52C27D5E097375C2378 /* Build configuration list for PBXNativeTarget "Pods-ZCDemoLogin_Example" */;
+			buildPhases = (
+				78115FF859DECDE7EBCACEF8E0096AC1 /* Headers */,
+				6A81D0E1F2A5AC63C4B1BC7C73A1B56C /* Sources */,
+				7F06A1F687E2DB2BBEE5B5408DBC60EC /* Frameworks */,
+				C835B48AFF6669BEE9D47C65C9432926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EA225CD3E44F4F1E11AF6498E97D355 /* PBXTargetDependency */,
+				A676F688F344887300ECC7BA0CF0B578 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZCDemoLogin_Example";
+			productName = "Pods-ZCDemoLogin_Example";
+			productReference = 409123506BBA5E952E8410ACC8481415 /* Pods_ZCDemoLogin_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4C877A538DE81D4568E26745375778D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9CD9A0FB00CF5EA2889A052C7DABD80 /* Pods-ZCDemoLogin_Example */,
+				692E0FE89F32AFE1C800E0DE3B20C30F /* Pods-ZCDemoLogin_Tests */,
+				23B3085777B8586E33C3DDAE496A7622 /* ZCDemoLogin */,
+				295875DE22DDA1DF8B2644806DE4F474 /* ZCDemoLogin-ZCDemoLogin */,
+				29F38C98B1090126D39F0B503AAF8AD8 /* ZCDemoTools */,
+				BD73C8A9C438B4E13B655EA5E6E1FA51 /* ZCDemoTools-ZCDemoTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EFDC6E0340995E42E68BB7C92216B2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F6B410AD8E855BAD5AB9EBCB99C9DC /* ZCDemoToolsAsset.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2136754845604BBB20C9AC5D8ED3E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBB1960CFB1BF7A8A1EA1AEC5FDAF4A /* ZCDemoLogin.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6737FCE8F29392706171FEF1240403C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168365D08725B77679CDC00991B96458 /* ZCDemoTools.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C835B48AFF6669BEE9D47C65C9432926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF07A1F934D974EA74C4A60F4F509E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1187835D9BF59C50379F7B6A4EFB3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324D811FBC2B80B05079499D4AD06A0C /* ZCDemoToolsAsset.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B7E7DD313842E6427705477557D415B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E9D5EBB9BB0881CBDA2CC51DB4877B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7575A3199F6D8C471CBAD2F17B51EED6 /* CustomButton.m in Sources */,
+				EF542103BD1728F881BB93DA2E79A2FC /* DYDemoTools.m in Sources */,
+				DA368E73F9D79EF81CE158B24ADC5482 /* ZCDemoLogin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F992DA90909EF08E3063F3F58DA7C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5FBCFE23604939F7E5F1848A2717F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56ACE38F81AA25F783DD4DCF879EF435 /* Pods-ZCDemoLogin_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A81D0E1F2A5AC63C4B1BC7C73A1B56C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72932B704E74D7F13EF51356C3E32A62 /* Pods-ZCDemoLogin_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3B25F700DF4C1B2543B14CD32834D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FDB7B955234690FBA13FE7326AE297 /* CustomButton.m in Sources */,
+				B6AEF0D5E8A3109F8E9C6BE5BB97E446 /* DYDemoTools.m in Sources */,
+				B637A909B9136DF832EEE9C64C7A3C8E /* ZCDemoTools-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EA225CD3E44F4F1E11AF6498E97D355 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCDemoLogin;
+			target = 23B3085777B8586E33C3DDAE496A7622 /* ZCDemoLogin */;
+			targetProxy = 6468E9B8E5ABC487D4B8DBE9347C9F07 /* PBXContainerItemProxy */;
+		};
+		493F1FD04996A481E9211DF2C75D0633 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZCDemoLogin_Example";
+			target = D9CD9A0FB00CF5EA2889A052C7DABD80 /* Pods-ZCDemoLogin_Example */;
+			targetProxy = 250D02E22ACE69DC9C5FCF9F0AA9AAEC /* PBXContainerItemProxy */;
+		};
+		4E4854D8A8F5C16F67D08D167F28B17B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCDemoTools;
+			target = 29F38C98B1090126D39F0B503AAF8AD8 /* ZCDemoTools */;
+			targetProxy = 69D8EE7AAF52D2B10FC102EF529E848E /* PBXContainerItemProxy */;
+		};
+		890FEC9D9EF6B1C945D4E8F9C4B5412E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZCDemoLogin-ZCDemoLogin";
+			target = 295875DE22DDA1DF8B2644806DE4F474 /* ZCDemoLogin-ZCDemoLogin */;
+			targetProxy = 9C4CD94FFFB583332D07B44B3473E551 /* PBXContainerItemProxy */;
+		};
+		A676F688F344887300ECC7BA0CF0B578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZCDemoTools;
+			target = 29F38C98B1090126D39F0B503AAF8AD8 /* ZCDemoTools */;
+			targetProxy = 02E13D33D3DF9F7504C66C56638DFACD /* PBXContainerItemProxy */;
+		};
+		AE2E325163668C71F877522970B1C6A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZCDemoTools-ZCDemoTools";
+			target = BD73C8A9C438B4E13B655EA5E6E1FA51 /* ZCDemoTools-ZCDemoTools */;
+			targetProxy = C9E871E9404B38481420FFA3D66F569F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19353D301A551717FB0F1EFEB9006DE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B287D47DA1AC85E060CE889C5567B560 /* Pods-ZCDemoLogin_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZCDemoLogin_Example/Pods-ZCDemoLogin_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZCDemoLogin_Example/Pods-ZCDemoLogin_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A2837DE0DFCED7E7341C44715DD85E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D02FE68F2ED8064AC860089B60380BB /* ZCDemoTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZCDemoTools/ZCDemoTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZCDemoTools/ZCDemoTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZCDemoTools/ZCDemoTools.modulemap";
+				PRODUCT_MODULE_NAME = ZCDemoTools;
+				PRODUCT_NAME = ZCDemoTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42A6CCFE6C3564A18D41BA69968467EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A9C3ADDECAD554AB145B5DFE4F42CC7 /* Pods-ZCDemoLogin_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZCDemoLogin_Tests/Pods-ZCDemoLogin_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZCDemoLogin_Tests/Pods-ZCDemoLogin_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5578447C585161362156F9D0F06F9F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF39CB059AFDD712CA76AC786AB1BAE3 /* ZCDemoLogin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZCDemoLogin/ZCDemoLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZCDemoLogin/ZCDemoLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZCDemoLogin/ZCDemoLogin.modulemap";
+				PRODUCT_MODULE_NAME = ZCDemoLogin;
+				PRODUCT_NAME = ZCDemoLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ADF447C4A297C29F746ED31CD3A2BD66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2861D779BCD6E48E7457ED26BF641DFB /* Pods-ZCDemoLogin_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZCDemoLogin_Tests/Pods-ZCDemoLogin_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZCDemoLogin_Tests/Pods-ZCDemoLogin_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0884B4CF45406A1383C219045F3DE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D02FE68F2ED8064AC860089B60380BB /* ZCDemoTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZCDemoTools";
+				IBSC_MODULE = ZCDemoTools;
+				INFOPLIST_FILE = "Target Support Files/ZCDemoTools/ResourceBundle-ZCDemoTools-ZCDemoTools-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZCDemoTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CFABBD89D067D3EF1E58F6188AD43C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF39CB059AFDD712CA76AC786AB1BAE3 /* ZCDemoLogin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZCDemoLogin/ZCDemoLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZCDemoLogin/ZCDemoLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZCDemoLogin/ZCDemoLogin.modulemap";
+				PRODUCT_MODULE_NAME = ZCDemoLogin;
+				PRODUCT_NAME = ZCDemoLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D24EEEE03CA22E0E7B7D17198B214CE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D02FE68F2ED8064AC860089B60380BB /* ZCDemoTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZCDemoTools/ZCDemoTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZCDemoTools/ZCDemoTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZCDemoTools/ZCDemoTools.modulemap";
+				PRODUCT_MODULE_NAME = ZCDemoTools;
+				PRODUCT_NAME = ZCDemoTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4B40AB92620103C4F3ACD5AD43AFEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF39CB059AFDD712CA76AC786AB1BAE3 /* ZCDemoLogin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZCDemoLogin";
+				IBSC_MODULE = ZCDemoLogin;
+				INFOPLIST_FILE = "Target Support Files/ZCDemoLogin/ResourceBundle-ZCDemoLogin-ZCDemoLogin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZCDemoLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D8D1CA0DCA987A5CBF597BD51B773D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D02FE68F2ED8064AC860089B60380BB /* ZCDemoTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZCDemoTools";
+				IBSC_MODULE = ZCDemoTools;
+				INFOPLIST_FILE = "Target Support Files/ZCDemoTools/ResourceBundle-ZCDemoTools-ZCDemoTools-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZCDemoTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DE4BF409F8A6C1A046CE0DD328296BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A951E3350A84BF90B4334906EE876798 /* Pods-ZCDemoLogin_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZCDemoLogin_Example/Pods-ZCDemoLogin_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZCDemoLogin_Example/Pods-ZCDemoLogin_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF116FAC44E961386D23A1D208318F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF39CB059AFDD712CA76AC786AB1BAE3 /* ZCDemoLogin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZCDemoLogin";
+				IBSC_MODULE = ZCDemoLogin;
+				INFOPLIST_FILE = "Target Support Files/ZCDemoLogin/ResourceBundle-ZCDemoLogin-ZCDemoLogin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZCDemoLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11BCD9B5D5B66C8DFDF10CB82A059545 /* Build configuration list for PBXNativeTarget "ZCDemoTools-ZCDemoTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D1CA0DCA987A5CBF597BD51B773D8F /* Debug */,
+				B0884B4CF45406A1383C219045F3DE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76DF27CCF16F9D90980D8BD315B33A88 /* Build configuration list for PBXNativeTarget "ZCDemoTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D24EEEE03CA22E0E7B7D17198B214CE3 /* Debug */,
+				1A2837DE0DFCED7E7341C44715DD85E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A3BA0A3646C52C27D5E097375C2378 /* Build configuration list for PBXNativeTarget "Pods-ZCDemoLogin_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19353D301A551717FB0F1EFEB9006DE6 /* Debug */,
+				DE4BF409F8A6C1A046CE0DD328296BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB144CE649C35F7704791FEF102074BB /* Build configuration list for PBXNativeTarget "ZCDemoLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5578447C585161362156F9D0F06F9F9D /* Debug */,
+				CFABBD89D067D3EF1E58F6188AD43C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4DDDAE3A3FFC537E5DB74A2A9E467F /* Build configuration list for PBXNativeTarget "ZCDemoLogin-ZCDemoLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF116FAC44E961386D23A1D208318F7B /* Debug */,
+				D4B40AB92620103C4F3ACD5AD43AFEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7B43DB0CFCAACDAE205AAB1E0C8C9E5 /* Build configuration list for PBXNativeTarget "Pods-ZCDemoLogin_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A6CCFE6C3564A18D41BA69968467EF /* Debug */,
+				ADF447C4A297C29F746ED31CD3A2BD66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
